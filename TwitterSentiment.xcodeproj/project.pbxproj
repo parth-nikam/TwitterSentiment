@@ -13,6 +13,7 @@
 		7BA778AE29D4B488003B1447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA778AC29D4B488003B1447 /* Main.storyboard */; };
 		7BA778B029D4B48A003B1447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA778AF29D4B48A003B1447 /* Assets.xcassets */; };
 		7BA778B329D4B48A003B1447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA778B129D4B48A003B1447 /* LaunchScreen.storyboard */; };
+		7BD2AAE229D4BA9500F77497 /* TweetSentimentModelMaker.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2AAE129D4BA9500F77497 /* TweetSentimentModelMaker.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7BA778AF29D4B48A003B1447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA778B229D4B48A003B1447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BA778B429D4B48A003B1447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD2AAE129D4BA9500F77497 /* TweetSentimentModelMaker.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentModelMaker.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7BA778AF29D4B48A003B1447 /* Assets.xcassets */,
 				7BA778B129D4B48A003B1447 /* LaunchScreen.storyboard */,
 				7BA778B429D4B48A003B1447 /* Info.plist */,
+				7BD2AAE129D4BA9500F77497 /* TweetSentimentModelMaker.mlmodel */,
 			);
 			path = TwitterSentiment;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				7BA778AB29D4B488003B1447 /* ViewController.swift in Sources */,
 				7BA778A729D4B488003B1447 /* AppDelegate.swift in Sources */,
+				7BD2AAE229D4BA9500F77497 /* TweetSentimentModelMaker.mlmodel in Sources */,
 				7BA778A929D4B488003B1447 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
